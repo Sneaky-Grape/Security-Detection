@@ -1,0 +1,27 @@
+<annotation>
+    <filename>20220806-152411.jpg</filename>
+    <folder>security</folder>
+    <source>
+        <database>security</database>
+        <annotation>custom</annotation>
+        <image>custom</image>
+    </source>
+    <size>
+        <width>1280</width>
+        <height>720</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>key</name>
+        <pose>unspecified</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>405</xmin>
+            <ymin>421</ymin>
+            <xmax>529</xmax>
+            <ymax>626</ymax>
+        </bndbox>
+    </object>
+</annotation>

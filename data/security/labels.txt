@@ -1,0 +1,5 @@
+coin
+key
+knife
+phone
+wallet
