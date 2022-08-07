@@ -1,0 +1,6 @@
+BACKGROUND
+coin
+key
+knife
+phone
+wallet
