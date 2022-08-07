@@ -10,3 +10,7 @@ I had went over the long process of training my own detectnet network called ssd
 
 # Materials
 All you need is a webcam and a jetson nano kit, consisting of a power supply, HDMI cable, wifi dongle, mouse, and keyboard.
+This link will be helpful for setting up you jetson-nano, and running my program: https://github.com/dusty-nv/jetson-inference
+You can also watch the videos from dusty-nv, which explain the setup in more details.
+After you have finished set up, you would need to download my files and run "python3 my-detection.py". This will run the program and a live video feed will pop up.
+This is basically how the project works, thank you for trying it out!
