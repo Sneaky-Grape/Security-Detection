@@ -3,16 +3,10 @@
 Hello! This project is a program which uses Artificial Intelligence and a camera to detect different types of objects and classifies if they are either dangerous or safe!
 
 Overview
-In many public places, safety is a priority. Many areas like airports or important events require a team of professionals to dig through your personal belongings to check for anything dangerous. With this program, sorting through items will never be simpler. 
+In many public places, safety is a priority. Many areas like airports or important events require a team of professionals as well as many advanced technology to dig through your personal belongings to check for anything dangerous. With this program, sorting through items will never be simpler. 
 
 How it Works
-After running the program in the jetson nano, the camera is opened and detectnet starts. Detectnet would be able to "detect" the many different objects and shows the percentage on how  uses the detection from detectnet to identify what each type of coin is. It would then add up each of the coins, respective to the amount it is worth. The program then adds up all the coins to get a final sum of how much money is in the coin pile.
+I had went over the long process of training my own detectnet network called ssd-mobilenet. I trained the program by taking and adjusting around 600 pictures with the objects in different positions and directions. Then I made a python code to incorporate the network so all the user needs to do is to download the python code and run it in jetson inference. In the python code, I added my own code to alert the user that it detects something dangerous. After running the program in the jetson nano, the camera is opened and detectnet starts. Detectnet would be able to "detect" the many different objects and if that object is a weapon(such as a knife) and it will alert the person of the threat. 
 
 Materials
 All you need is a webcam and a jetson nano kit, consisting of a power supply, HDMI cable, wifi dongle, mouse, and keyboard.
-
-Instructions:
-1. After ssd to your nano, run the detect net through the my-detection directory
-2. Hover the camera over the objects
-3. The program would detect if there is anything dangerous, like a knife
-4. 
