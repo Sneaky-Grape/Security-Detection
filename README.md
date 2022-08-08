@@ -14,3 +14,5 @@ This link will be helpful for setting up you jetson-nano, and running my program
 You can also watch the videos from dusty-nv, which explain the setup in more details.
 After you have finished set up, you would need to download my files and run "python3 my-detection.py". This will run the program and a live video feed will pop up.
 This is basically how the project works, thank you for trying it out!
+
+IMPORTANT: dear NVIDIA grader, my second half of the video was really glitchy for some reason. I needed to submit it two times to NVIDIA. Also my video links are different now. I hope this clears up the confusion.
